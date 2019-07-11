@@ -7,8 +7,7 @@ public class Person{
     public Person(String name, int age, String city){
         this.name=name;
         this.age=age;
-        this.city=city;
-        
+        this.city=city;   
     }
     
     public String getName() 
