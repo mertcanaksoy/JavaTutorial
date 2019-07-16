@@ -43,3 +43,22 @@ public class Main {
         System.out.println(a.fonk(1, 2));
     } 
 } 
+
+//Örnek 3: Main metodunu overload etmek
+public class Test { 
+      
+    // Normal main() 
+    public static void main(String[] args) { 
+        System.out.println("String[] args parametresinden selamlar"); 
+        Test.main("Args"); 
+    } 
+  
+    // Overloaded main methods 
+    public static void main(String arg1) { 
+        System.out.println("Mergaba ben, " + arg1); 
+        Test.main("Selam","Naber"); 
+    } 
+    public static void main(String arg1, String arg2) { 
+        System.out.println("Merhaba, " + arg1 + " ve " + arg2); 
+    } 
+} 
