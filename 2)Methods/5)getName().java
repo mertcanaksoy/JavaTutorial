@@ -1,5 +1,5 @@
 package com.mert.javatutorial;
-public class GFG 
+public class GetNameClass 
 { 
     public static void main(String arr[]) 
     { 
@@ -21,3 +21,11 @@ public class GFG
         System.out.println(y.getClass().getName()); 
     } 
 } 
+
+/* OUTPUT
+java.lang.Character
+java.lang.Integer
+java.lang.String
+java.lang.Double
+java.lang.Boolean
+*/
